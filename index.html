@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">my work</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa fa-times" aria-hidden="true" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" aria-hidden="true" onclick="openmenu()"></i>
+          
+            </nav>
+            <div class="header-text">
+                <p>UI/UX designer </p>
+                <h1> Hi, I'm <span>Chand</span> <br> Adil from India</h1>
+            </div>
+        </div>
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">about me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus suscipit libero quisquam culpa
+                        incidunt voluptas asperiores sunt aliquam reiciendis, eius officiis ut non mollitia consequatur.
+                        Voluptate quia dolorem ullam et deleniti exercitationem, natus nostrum optio odit corporis atque
+                        consectetur, officiis libero culpa rem ipsam laudantium amet quam vel. Distinctio, fuga!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiences')">Experieces</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces </li>
+                            <li><span>Web Development</span><br>Designing Web/App interfaces</li>
+                            <li><span>App Development</span><br>buiding Android /ios app</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experiences">
+                        <ul>
+                            <li><span>current -2023</span><br>infosis in the position of web developer</li>
+                            <li><span>2021-2022</span><br>deloight in position of data analyist</li>
+                            <li><span>2019-2021</span><br> google, Android application developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>neharu college</span><br>Designing Web/App interfaces</li>
+                            <li><span>tgpcet</span><br>Designing Web/App interfaces</li>
+                            <li><span>egpcet</span><br>buiding Android /ios app</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- -------services-------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <h2>web development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, enim nulla! Minus, molestias
+                        Lorem ipsum dolor sit.
+                    </p>
+                    <a href="">learn more</a>
+                </div>
+
+
+                <div>
+                    <i class="fa fa-crop" aria-hidden="true"></i>
+                    <h2>ui/ux development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, enim nulla! Minus, molestias
+                        Lorem ipsum dolor sit.
+                    </p>
+                    <a href="">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                    <h2>app development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, enim nulla! Minus, molestias
+                        Lorem ipsum dolor sit.
+                    </p>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!-- -------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social media app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa numquam, quisquam ipsam non
+                            dolore obcaecati </p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa numquam, quisquam ipsam non
+                            dolore obcaecati</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3>online shopping app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa numquam, quisquam ipsam non
+                            dolore obcaecati </p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                        <!-- <a href="#"><i class="fa fa-bath" aria-hidden="true"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+
+
+        </div>
+    </div>
+
+
+
+    <!-- ----------contact------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p> <i class="bi bi-send-fill"></i>tarasahu@gmail.com</p>
+                    <p><i class="bi bi-phone"></i>7559223045</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                    <a href="../cv.pdf" download="" class="btn btn2" >Download cv</a>
+
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="enter name" required>
+                        <input type="email" name="email" placeholder="enter your id" required> 
+                        <textarea name="messege"  rows="6" placeholder="your messege"></textarea>
+                        <button type="submit" class="btn btn2">
+                            
+                    Submit
+                        </button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright tara. Made with <i class="bi bi-heart-fill"></i> by Chandani Adil</p>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content")
+        function opentab(tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-links")
+
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+
+            }
+            event.currentTarget.classList.add("active-links")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwTd_80LztSBYvMRp0sKkOoDHuVLwuhtVJQACE8JA8FE6jse-pINH9Y1X-K4BcBCCMVMw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=" "
+                })
+            },5000)
+            form.reset()
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+
+</html>
