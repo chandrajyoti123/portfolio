@@ -7,6 +7,11 @@
 html{
     scroll-behavior: smooth;
 }
+.logo{
+    font-size:60px;
+    padding-top: 5px;
+    font-weight: bold;
+}
 
 body {
     background-color: #080808;
@@ -16,8 +21,9 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url("/background.png");
-    background-size: cover;
+    background-color: black;
+    /* background-image: url("./../chandani.png"); */
+    background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -54,7 +60,7 @@ nav ul li a::after {
     content: '';
     width: 0%;
     height: 3px;
-    background-color: #ff004f;
+    background-color: #21b8ed;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -76,7 +82,7 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 span {
-    color: #ff004f;
+    color: #21b8ed;
 }
 
 #about {
@@ -129,7 +135,7 @@ nav ul li a:hover::after {
     content: '';
     width: 0%;
     height: 3px;
-    background-color: #ff004f;
+    background-color: #21b8ed;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -137,7 +143,7 @@ nav ul li a:hover::after {
 }
 
 .tab-links.active-links::after {
-    width: 50%;
+    width: 100%;
 }
 
 .tab-content ul li {
@@ -146,7 +152,7 @@ nav ul li a:hover::after {
 }
 
 .tab-content ul li span {
-    color: #b54769;
+    color: #28a8d7;
     font-size: 14px;
 }
 
@@ -200,7 +206,7 @@ nav ul li a:hover::after {
 }
 
 .services-list div:hover {
-    background: #ff004f;
+    background: #21b8ed;
     transform: translateY(-10px);
 }
 
@@ -238,7 +244,7 @@ nav ul li a:hover::after {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #21b8ed);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -267,7 +273,7 @@ nav ul li a:hover::after {
 
 .layer a {
     margin-top: 20px;
-    columns: #ff004f;
+    columns: #21b8ed;
     text-decoration: none;
 
     font-size: 18px;
@@ -283,7 +289,7 @@ nav ul li a:hover::after {
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #21b8ed;
     border-radius: 6px;
     padding: 14px 50px;
     text-decoration: none;
@@ -292,7 +298,7 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-    background: #ff004f;
+    background: #21b8ed;
 }
 
 /* -----------contact------------- */
@@ -311,7 +317,7 @@ nav ul li a:hover::after {
 }
 
 .contact-left p i {
-    color: #ff004f;
+    color: #21b8ed;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -330,14 +336,14 @@ nav ul li a:hover::after {
 }
 
 .social-icons a:hover {
-    color: #ff004f;
+    color: #21b8ed;
     transform: translateY(-5px);
 
 }
 
 .btn.btn2 {
     display: inline-block;
-    background: #ff004f;
+    background: #21b8ed;
 }
 
 .contact-right form {
@@ -374,7 +380,7 @@ form .btn2 {
 }
 
 .copyright i {
-    color: #ff004f;
+    color: #21b8ed;
 }
 nav .fa{
     display: none;
@@ -391,7 +397,11 @@ nav .fa{
     #header {
         background-image: url("../phone-background.png");
     }
-
+    .logo{
+        font-size:40px;
+        padding-top: 5px;
+        font-weight: bold;
+    }
     .header-text {
         margin-top: 100%;
         font-size: 16px;
@@ -407,7 +417,7 @@ nav .fa{
     
     }
     nav ul{
-        background: #ff004f;
+        background: #21b8ed;
         position: fixed;
         top: 0;
         right: -200px;
